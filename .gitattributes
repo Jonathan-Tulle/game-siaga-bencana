@@ -22,3 +22,12 @@
 ## Video formats
 *.mp4 filter=lfs diff=lfs merge=lfs -text
 *.mov filter=lfs diff=lfs merge=lfs -text
+
+## GitHub Linguist Overrides (Ensure 100% C#)
+"Assets/TextMesh Pro/**" linguist-vendored
+*.shader linguist-detectable=false
+*.shadergraph linguist-detectable=false
+*.hlsl linguist-detectable=false
+*.cginc linguist-detectable=false
+*.wlt linguist-detectable=false
+
