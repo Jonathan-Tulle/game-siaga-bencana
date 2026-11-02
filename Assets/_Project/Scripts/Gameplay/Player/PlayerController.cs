@@ -21,6 +21,8 @@ namespace SiagaBencana.Gameplay
         private float _verticalVelocity;
 
         public bool IsCovering => _isCovering;
+        public bool IsInCoverZone { get; set; }
+        public bool IsSafelyCovered => _isCovering && IsInCoverZone;
         public bool CanMove { get; set; } = true;
 
         private GameState _stateBeforePause;

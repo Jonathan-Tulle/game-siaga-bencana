@@ -2,7 +2,5 @@
   <Project Path="SiagaBencana.Core.csproj" />
   <Project Path="SiagaBencana.Editor.csproj" />
   <Project Path="SiagaBencana.Gameplay.csproj" />
-  <Project Path="Assembly-CSharp-Editor.csproj" />
   <Project Path="SiagaBencana.UI.csproj" />
-  <Project Path="Assembly-CSharp.csproj" />
 </Solution>

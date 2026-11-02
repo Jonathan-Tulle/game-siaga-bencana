@@ -22,6 +22,10 @@ namespace SiagaBencana.Core
         public static void RaiseEarthquakePhaseChanged(EarthquakePhase phase) =>
             OnEarthquakePhaseChanged?.Invoke(phase);
 
+        public static event Action<float> OnEarthquakeShakeIntensityChanged;
+        public static void RaiseEarthquakeShakeIntensityChanged(float intensity) =>
+            OnEarthquakeShakeIntensityChanged?.Invoke(intensity);
+
         // Player Cover
         public static event Action<bool> OnPlayerCoverChanged;
         public static void RaisePlayerCoverChanged(bool isCovering) =>
